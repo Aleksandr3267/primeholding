@@ -1,0 +1,33 @@
+@media(max-width:560px){
+    .modal-calculator .modal-calculator__center{
+        flex-direction: column;
+    }
+    .modal-calculator .modal-calculator__center .row-calc:last-child{
+        margin-top: 50px;
+    }
+}
+@media(max-width:520px){
+    .modal-calculator .modal-calculator__top, .modal-calculator .modal-calculator__center, .modal-calculator .modal-calculator__bottom{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .modal-calculator .modal-calculator__top .price-apart{
+        order: 1;
+        margin-top: 40px;
+    }
+    .modal-calculator .modal-calculator__top .call-btn{
+        /* margin: 0 auto; */
+        margin-top: 20px;
+    }
+    .modal-calculator .modal-calculator__bottom .download-mob{
+        align-self: auto;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}
+@media(max-width:420px){
+    .price-month .price{
+        max-width: 190px;
+    }
+}
+

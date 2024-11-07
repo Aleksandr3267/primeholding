@@ -1,0 +1,33 @@
+@media (max-width: 991px) {
+    .modal-call .modal-dialog {
+        max-width: 600px;
+    }
+    .modal-call__btn-close {
+        top: 10px;
+        right: 10px;
+    }
+}
+@media (max-width: 767px) {
+
+    .modal-call .modal-dialog {
+        max-width: 480px;
+    }
+}
+@media (max-width: 560px) {
+    .modal-call {
+        padding: 0 16px;
+    }
+    .modal-call__body {
+        padding: 40px 16px;
+        overflow: hidden;
+    }
+    .modal-call__bg-one {
+        left: -10px;
+        top: 100px;
+    }
+
+    .form__btn-submit {
+        width: 100%;
+        max-width: 300px;
+    }
+}

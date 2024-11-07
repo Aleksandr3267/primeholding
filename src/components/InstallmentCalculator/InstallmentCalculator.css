@@ -1,0 +1,183 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.modal-calculator input[type="range"]{
+    width: 100%;
+    background:rgba(255, 255, 255, 0.212);
+    height: 1px;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    max-width: 240px;
+    min-width: 240px;
+}
+
+.modal-calculator input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 11px;
+    height: 11px;
+    background: #9D8962 !important;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.modal-calculator .modal-call__btn-close{
+    bottom: 0;
+    top: inherit;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-calculator .modal-dialog {
+    max-width: 715px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: auto;
+    min-height: 100vh;
+}
+.modal-calculator__body {
+    background: #272A2A;
+    padding: clamp(30px, 5vw, 60px);
+    position: relative;
+}
+.modal-calculator .title-calculator{
+    color:  #FFF;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-family: var(--first-font);
+}
+.modal-calculator .param-calc{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--second-font);
+    margin-top: 16px;
+    max-width: 250px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding-bottom: 7px;
+}
+
+
+
+.modal-calculator .modal-calculator__top, .modal-calculator .modal-calculator__center, .modal-calculator .modal-calculator__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.modal-calculator .modal-calculator__top .currency-selection{
+    display: flex;
+}
+.modal-calculator .modal-calculator__top .currency-selection .currency-b{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 1px solid #9D8962;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.modal-calculator .modal-calculator__top .currency-selection .currency-b[data-currency='com']{
+    text-decoration-line: underline;
+}
+.modal-calculator .modal-calculator__top .currency-selection .currency-b:last-child{
+    margin-left: 7px;
+}
+.modal-calculator .modal-calculator__top .currency-selection .currency-b.active{
+    background-color: #9D8962;
+}
+.modal-calculator .modal-calculator__top-b{
+    margin-top: 30px;
+}
+.modal-calculator .modal-calculator__top-b .price-apart{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.modal-calculator .modal-calculator__top-b .price-apart #priceInput {
+    /* all: unset; */
+    color: #9D8962;
+    font-size: clamp(30px, 5vw, 70px);
+    font-family: var(--second-font);
+    margin-top: 16px;
+    border-bottom: 1px solid #9D8962;
+}
+.modal-calculator .modal-calculator__top .call-btn{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: lowercase;
+    background: #9D8962;
+    border-radius: 50px;
+    padding: 10px 28px;
+}
+
+.modal-calculator .modal-calculator__center{
+    margin-top: 60px;
+}
+.modal-calculator .modal-calculator__bottom{
+    margin-top: 36px;
+    margin-bottom: 84px;
+}
+
+
+.price-month{
+    font-size: clamp(30px, 5vw, 70px);
+    font-family: var(--second-font);
+}
+.price-month .price{
+    max-width: 250px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    display: inline-block;
+    white-space: nowrap;
+    padding-bottom: 7px;
+    margin-bottom: -10px;
+}
+.price-month .price::-webkit-scrollbar, .modal-calculator .param-calc::-webkit-scrollbar {
+    height: 0px;
+}
+.price-month .price::-webkit-scrollbar-track {
+    /* background: #f1f1f1;  */
+}
+.price-month .price::-webkit-scrollbar-thumb, .modal-calculator .param-calc::-webkit-scrollbar-thumb {
+    background: #474747;
+    border-radius: 3px;
+}
+.price-month .price::-webkit-scrollbar-thumb:hover, .modal-calculator .param-calc::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.price-month span{
+    font-size: clamp(24px, 3vw, 42px);
+    color: #9D8962;
+    text-transform: lowercase;
+}
+
+.modal-calculator .modal-calculator__bottom .download-mob{
+    font-size: 14px;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    margin-left: 10px;
+}
+.modal-calculator .modal-calculator__bottom .download-mob img{
+    margin-right: 16px;
+}

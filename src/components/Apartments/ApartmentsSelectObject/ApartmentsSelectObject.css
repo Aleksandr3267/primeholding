@@ -1,0 +1,36 @@
+
+.select-block-modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    overflow: hidden;
+}
+.select-block-modal .modal-body{
+    padding: 0;
+    background-color: #1c1e1e;
+}
+.modal-select-block__body-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    /* overflow: hidden; */
+    padding: 0 40px;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.objects.objects-select-ap .objects-content .objects-content__blocks{
+    justify-content: center;
+}
+
+
+@media(max-width:500px){
+    .objects-select-ap .modal-select-block__body-content{
+        padding: 0 16px;
+    }
+}

@@ -1,0 +1,32 @@
+@media (max-width: 1580px){
+    #map .gmnoprint>div{
+        flex-direction: column;
+    }
+    #map .gmnoprint[data-control-height="81"]{
+        bottom: auto;
+        right: -34px;
+        top: 0px !important;
+    }
+    #map .gmnoprint>div button{
+        margin-right: 0px !important;
+        margin-top: 5px !important;
+    }
+    #map .gmnoprint>div button:first-child {
+        margin-top: 0px !important;
+    }
+}
+@media (max-width: 991px) {
+    .left-bottom-elements{
+        left: 20px;
+        bottom: 20px;
+    }
+    #map{
+        height: 436px;
+    }
+}
+
+@media(max-width:400px){
+    .left-bottom-elements{
+        left: 5px;
+    }
+}

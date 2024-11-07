@@ -1,0 +1,53 @@
+.objects .objects-content{
+    margin-bottom: 32px;
+}
+.objects .objects-content .container{
+    position: relative;
+}
+.objects .objects-content .title {
+    font-size: clamp(30px, 5vw, 50px);
+    margin-top: clamp(100px, 14vw, 130px);
+}
+.objects .objects-content .contact-us__bg-one{
+    position: absolute;
+    right: 381px;
+    top: 25px;
+}
+.objects .objects-content .office-info__title{
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+.objects .objects-content .objects-content__blocks{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    margin-top: 40px;
+}
+.objects .objects-content .objects-content__blocks .objects-block{
+    width: 100%;
+    max-width: 480px;
+    min-height: 490px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.objects .objects-content .objects-content__blocks .objects-block .objects-block-image{
+    position: absolute;
+    width: 100%;
+}
+.objects .objects-content .objects-content__blocks .objects-block .objects-block-image img{
+    width: 100%;
+    min-height: 335px;
+    object-fit: cover;
+}
+.objects .objects-content .objects-content__blocks .objects-block .objects-block-text{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(180deg, rgba(10, 10, 10, 0) 0%, #0A0A0A 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 40px;
+}

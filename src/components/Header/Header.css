@@ -1,0 +1,103 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: transparent;
+    padding-right: inherit;
+    transition: 0.3s ease;
+}
+.header.scrolled {
+    position: fixed;
+    background-color: #242727; /* Измените на нужный цвет */
+}
+.header-menu {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.header-menu > * {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    max-width: 44px;
+    justify-content: center;
+}
+.header-menu__right {
+    justify-content: flex-end;
+}
+.header-link {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--color-white);
+   
+}
+.header-menu__left .header-link{
+    background: rgba(157, 137, 98, 0.3);
+    border-radius: 36px;
+    padding: 15px 27px;
+}
+.header-link img {
+    margin-right: 8px;
+}
+.header-link--projects img {
+    margin-right: 16px;
+}
+.header-link--call {
+    margin-right: 30px;
+}
+.header-burger {
+    margin-left: 23px;
+    display: flex;
+    align-items: center;
+}
+.header-burger__text {
+    font-size: 11px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.header-burger__lines {
+    width: 48px;
+    height: 20px;
+    position: relative;
+    margin-right: 16px;
+}
+.header-burger__lines span {
+    display: block;
+    background: var(--color-brown);
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+.header-burger__lines span:nth-child(1) {
+    width: 27px;
+    height: 2px;
+    top: 0;
+    right: 0;
+}
+.header-burger__lines span:nth-child(2) {
+    width: 48px;
+    height: 2px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+}
+.header-burger__lines span:nth-child(3) {
+    width: 36px;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+}
+.header-burger:hover .header-burger__lines span:nth-child(1) {
+    transform: translateX(-21px);
+}
+.header-burger:hover .header-burger__lines span:nth-child(3) {
+    transform: translateX(-12px);
+}

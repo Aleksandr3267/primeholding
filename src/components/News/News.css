@@ -1,0 +1,100 @@
+.news{
+    margin-bottom: 100px;
+}
+.news .news-top{
+    position: relative;
+}
+.news .news-top .title{
+    font-size: clamp(30px, 5vw, 50px);
+}
+.news .news-top .hero-title{
+    margin-top: clamp(120px, 14vw, 130px);
+}
+.news .news-top .contact-us__bg-one{
+    position: absolute;
+    right: 40px;
+    top: 0;
+}
+.news-date{
+    position: relative;
+    font-size: 9px;
+    text-transform: uppercase;
+}
+.news-date.title-line-after:after{
+    width: 60px;
+    top: 50%;
+    right: -76px;
+}
+.news .news__content{
+    margin-top: 80px;
+}
+.news .news__content .news-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -20px;
+    margin-right: 24px;
+}
+.news-blocks-side:nth-child(2){
+    margin-top: 116px;
+}
+.news .news__content .news-block{
+    margin-top: 50px;
+    align-self: flex-start;
+    width: 100%;
+    max-width: 693px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.news .news__content .news-block:first-child{
+    margin-top: 0;
+}
+
+.news .news__content .news-block .title{
+    font-family: var(--second-font);
+    font-size: clamp(20px, 3.5vw, 30px);
+    margin-top: 30px;
+    max-width: 532px;
+}
+.news-block .image-content{
+    display: flex;
+    align-items: end;
+    position: relative;
+    margin-top: 20px;
+}
+.news-block .image-content .image-content__image img{
+    width: 100%;
+}
+.news-block .image-content .image-content__right{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.news-block .image-content .image-content__right .title::after{
+    right: -111px;
+}
+.news .block-text-m{
+    max-width: 520px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #F9F9F9;
+    opacity: 0.7;
+    font-weight: 300;
+    line-height: 170%;
+    text-transform: lowercase;
+}
+.news .call{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 100%;
+    text-align: right;
+    text-transform: uppercase;
+    color: #F9F9F9;
+    font-family: var(--first-font);
+}
+.news .call img{
+    margin-left: 16px;
+}
+

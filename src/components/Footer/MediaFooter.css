@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+    .footer-btn-scroll span {
+        display: none;
+    }
+    .footer-btn-scroll img {
+        margin-bottom: 0;
+    }
+    .footer-top {
+        margin-bottom: 65px;
+    }
+    .footer-nav__item img {
+        margin-right: 16px;
+    }
+    .footer-nav__item-line {
+        width: 30px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 560px) {
+    .footer__bg-one{
+        bottom: 0px;
+    }
+}
+
+

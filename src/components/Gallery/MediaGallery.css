@@ -1,0 +1,102 @@
+@media(max-width:991px){
+    .slide::before{
+        width: 100%;
+        height: 279px;
+        left: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    }
+    .gallery__bottom .category{
+        display: none;
+    }
+    .gallery__bottom .category-menu{
+        display: block;
+        font-size: 30px;
+        font-family: var(--second-font);
+        color: #F9F9F9;
+        z-index: 2;
+    }
+    .gallery__bottom .category-menu .category-menu__toggle{
+        margin-left: 30px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+    }
+    .gallery__bottom .category-menu .category-menu__toggle img{
+        margin-left: 18px;
+    }
+    .category-menu__list{
+        position: fixed;
+        background-color: #1c1e1e;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 40px;
+        align-items: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+        overflow-y: auto;
+    }
+    .category-menu__list.visible {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .gallery__top .title, .gallery__top .modal-gallery__btn-close{
+        margin: 20px 16px;
+    }
+    .category-menu__list button{
+        margin-top: 30px;
+        width: 100%;
+        max-width: 300px;
+        text-align: left;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .category-menu__list button::before{
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background: #F9F9F9;
+        left: -20px;
+        transform: rotate(45deg);
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+    .category-menu__list button.active::before{
+        opacity: 1;
+    }
+    .category-menu__list .category-menu__close{
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        width: auto;
+        margin-top: 0;
+    }
+    .modal-gallery__body-content .gallery__bottom{
+        margin-bottom: 14px;
+    }
+    .gallery__bottom .buttons .slide-count{
+        padding: 16px 30px;
+    }
+    .gallery__bottom .buttons{
+        justify-content: flex-start;
+        border: none;
+    }
+    .gallery__bottom .buttons button{
+        display: none;
+    }
+}
+@media(max-width:425px){
+    .gallery__top .title{
+        display: none;
+    }
+    .modal-gallery__body-content .gallery__top{
+        justify-content: flex-end;
+    }
+}
+

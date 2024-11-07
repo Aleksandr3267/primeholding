@@ -1,0 +1,130 @@
+
+.kochmon  .hero-header .title-lg{
+    max-width: 555px;
+}
+
+.kochmon .arc-top svg path.hov{
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+    fill: transparent;
+    transition: 0.2s ease;
+}
+.kochmon .arc-top svg path.hov:hover{
+    fill: #9D8962;
+}
+.kochmon .arc-top svg > path.no-hov{
+    pointer-events: none;
+}
+.kochmon .images__content .img-cover{
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.kochmon .dreams-main-img{
+    height: 642px;
+}
+.kochmon .dreams-bottom-img{
+    width: 100%;
+}
+
+.kochmon  .eco-block-top-texts{
+    margin-top: 150px;
+}
+.kochmon .eco-title-small{
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.kochmon  .eco-text-mt{
+    margin-top: 30px;
+}
+
+.kochmon .eco-block-bottom{
+    margin-top: 0;
+}
+.kochmon .eco-block-bottom__image{
+    max-width: 623px;
+    width: 100%;
+}
+
+.kochmon .eco-b__bg-one{
+    position: absolute;
+    left: 30%;
+    top: -580px;
+}
+
+
+
+.kochmon .quay-title{
+    max-width: 890px;
+}
+
+
+
+
+.kochmon .quay-block__title{
+    margin-bottom: 0px;
+}
+.kochmon .quay-block-text-mt{
+    margin-top: 30px;
+}
+
+.kochmon .dreams-title{
+    max-width: 770px;
+}
+
+
+
+
+.kochmon .safety-bottom{
+    align-items: flex-start;
+}
+
+
+
+
+.kochmon .place-top__desc{
+    margin-bottom: 50px;
+}
+.kochmon .place__bg-one{
+    right: 0;
+    top: -500px;
+}
+.kochmon  .place-list{
+    max-width: 433px;
+}
+.kochmon .place-top__text{
+    margin-top: 30px;
+}
+.kochmon .place-top__text span{
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+.kochmon .arc-bottom__content {
+    max-width: 370px;
+}
+
+
+
+
+.kochmon .business-title{
+    max-width: 652px;
+}
+
+
+
+.kochmon .business-info__title{
+    margin-bottom: 0;
+}
+
+.kochmon .business .business-info__text{
+    margin-top: 30px;
+}

@@ -1,0 +1,78 @@
+
+
+.admin-term-form{
+    color:#222;
+    position: absolute;
+    background: white;
+    z-index: 1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 16px;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.admin-term-form .admin-term-blocks{
+    display: flex;
+    gap: 10px;
+    /* flex-direction: column; */
+}
+.admin-term-form .admin-term-block{
+    display: inline-flex;
+    flex-direction: column;
+}
+.admin-term-form .admin-term-block p{
+    font-size: 13px;
+    color:#222;
+    opacity: 0.7;
+}
+.admin-term-form input{
+    border: 1px solid #e0e0e0;
+    color:#222;
+    width: 100%;
+    font-size: 14px;
+    max-width: 100px;
+    padding: 6px 12px;
+    margin-top: 6px;
+}
+.admin-term-form .admin-term-button{
+    border-radius: 5px;
+    background:  #5780EB;
+    color: white;
+    font-size: 12px;
+    padding: 10px 24px;
+    margin-top: 16px;
+    align-self: center;
+}
+.admin-term-form .react-datepicker__triangle{
+    display: none;
+}
+.admin-term-form .react-datepicker__day{
+    border: 1px solid #E0E0E0;
+    width: 1.99rem;
+    line-height: 1.99rem;
+    margin: 0;
+    border-radius: 0;
+}
+.admin-term-form .react-datepicker__header{
+    background-color: none;
+    border-bottom: none;
+    padding: 0;
+}
+.admin-term-form .react-datepicker__header .react-datepicker__current-month{
+    padding: 8px 0;
+    background-color: #cdd9f9;
+    font-size: 17px;
+    font-weight: 400;
+}
+.admin-term-form .react-datepicker__day--in-range{
+    background-color: #5780EB;
+}
+.admin-term-form .react-datepicker__day-name{
+    margin: 0;
+}
+.admin-term-form .react-datepicker__navigation-icon::before{
+    border-color: #000;
+}
+

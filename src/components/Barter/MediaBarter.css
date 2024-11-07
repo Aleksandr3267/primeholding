@@ -1,0 +1,154 @@
+@media (max-width: 991px){
+    .barter .property .property-content .image{
+        order: 0;
+    }
+    .barter .property .property-content .image img{
+        margin-left: 0;
+    }
+
+
+    .barter .barter-content .barter-content__description{
+        margin-top: 40px;
+    }
+    .barter .car .container{
+        padding: 0;
+    }
+    .barter .car .car-content{
+        flex-direction: column;
+    }
+    .barter .car .car-content .car-content__image img{
+        width: 100%;
+    }
+    .barter .car .car-content .car-content__left{
+        margin-top: 60px;
+        margin-left: 0;
+        padding: 0 16px;
+    }
+    .barter .block-text-m{
+        margin-top: 40px;
+    }
+    .barter .call{
+        margin-top: 40px;
+    }
+    .barter .car .car-content .contact-us__bg-one{
+        z-index: 1;
+        bottom: 0;
+        right: 17px;
+        top: 400px;
+    }
+    /* property */
+    .barter .property{
+        margin-top: 91px;
+    }
+    .barter .property .container{
+        padding: 0;
+    }
+    .barter .property .property-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .barter .property .property-content .image{
+        position: relative;
+        top: 0;
+    }
+    .barter .property .property-content .image img{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .barter .property .property-content .property-content__text{
+        margin-left: 0;
+        padding: 0 16px;
+        margin-top: 60px;
+    }
+    .barter .property .property-content .property-content__text .desc, .barter .business-property .business-property-content .content__left .desc{
+        display: none;
+    }
+    .barter .property .property-content .property-content__text .mob, .barter .business-property .business-property-content .content__left .mob{
+        display: inline-block;
+    }
+    .barter .property .contact-us__bg-one{
+        width: 100%;
+        left: 18%;
+        top: 60%;
+        z-index: 1;
+    }
+    /* business-property */
+    .barter .business-property{
+        margin-top: 100px;
+    }
+    .barter .business-property .container{
+        padding: 0;
+    }
+    .barter .business-property .business-property-content{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: inherit;
+    }
+    .barter .business-property .business-property-content .content__left{
+        margin-left: 0;
+        padding: 0 16px;
+        margin-top: 60px;
+    }
+    .barter .business-property .business-property-content .contact-us__bg-one{
+        width: 100%;
+        top: 400px;
+        left: 26px;
+        right: 0;
+        z-index: 1;
+    }
+
+
+
+    .barter .private-homes{
+        margin-top: 91px;
+    }
+    .barter .private-homes .container{
+        padding: 0;
+    }
+    .barter .private-homes .private-homes-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .barter .private-homes .private-homes-content .image{
+        position: relative;
+        top: 0;
+        order: 0;
+    }
+    .barter .private-homes .private-homes-content .image img{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .barter .private-homes .private-homes-content .private-homes-content__text{
+        margin-left: 0;
+        padding: 0 16px;
+        margin-top: 60px;
+    }
+    .barter .private-homes .private-homes-content .private-homes-content__text .desc{
+        display: none;
+    }
+    .barter .private-homes .private-homes-content .private-homes-content__text .mob{
+        display: inline-block;
+    }
+    .barter .private-homes .contact-us__bg-one{
+        width: 100%;
+        /* left: 18%; */
+        top: 60%;
+        z-index: 1;
+    }
+}
+
+
+@media (max-width: 560px){
+    .barter .property .property-content .image img, .barter .business-property .business-property-content .image img, .barter .private-homes .private-homes-content .image img{
+        max-height: 436px;
+        width: auto;
+    }
+    .barter .property .contact-us__bg-one{
+        top: 406px;
+    }
+    .barter .property .property-content .property-content__text .mob, .barter .business-property .business-property-content .content__left .mob, .barter .private-homes .private-homes-content .private-homes-content__text .mob {
+        display: initial;
+    }
+}

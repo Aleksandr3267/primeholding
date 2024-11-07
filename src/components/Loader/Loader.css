@@ -1,0 +1,7 @@
+.loader{
+    position: fixed;
+    z-index: 100;
+    background: black;
+    color: white;
+    font-size: 20rem;
+}

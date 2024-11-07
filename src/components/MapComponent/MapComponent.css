@@ -1,0 +1,78 @@
+#map {
+    height: 580px;
+    width: 100%;
+    max-width: 1400px;
+    position: relative;
+}
+#map .gmnoprint {
+    display: none;
+}
+#map .gmnoprint[data-control-height="81"] {
+    right: 0px;
+    left: auto !important;
+    top: auto !important;
+    bottom: -50px;
+    display: block;
+}
+#map .gmnoprint[data-control-height="81"] div {
+    box-shadow: none !important;
+}
+#map .gmnoprint[data-control-height="81"] div>div[style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"] {
+    display: none;
+}
+#map .gmnoprint>div {
+    background: transparent !important;
+    display: flex;
+    width: auto !important;
+    height: auto !important;
+}
+#map .gmnoprint>div button {
+    border-radius: 50% !important;
+    background: #212121 !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 10px !important;
+    transition: .4s ease;
+}
+#map .gmnoprint>div button:hover{
+    opacity: 0.5;
+}
+#map .gmnoprint>div button:last-child {
+    margin-right: 0px !important;
+}
+#map .gmnoprint>div button::after {
+    content: '+';
+    position: relative;
+    display: block;
+    font-size: 30px;
+    color: white;
+}
+#map .gmnoprint>div button:last-child:after {
+    content: '-';
+    margin-top: -5px;
+}
+#map .gmnoprint>div button img {
+    display: none;
+}
+a[title="Открыть эту область в Google Картах (в новом окне)"] {
+    display: none !important;
+}
+
+.Map-container-Main{
+    position: relative;
+    height: 100%;
+}
+.left-bottom-elements{
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    left: 40px;
+}
+.left-bottom-elements .element{
+    cursor: pointer;
+    margin-right: 20px;
+}
+.left-bottom-elements .element:last-child{
+    margin-right: 0;
+}

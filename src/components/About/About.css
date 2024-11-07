@@ -1,0 +1,7 @@
+
+@media(max-width: 470px){
+    .about-us-img-main{
+        max-width: 100%;
+        min-height: auto;
+    }
+}

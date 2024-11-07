@@ -1,0 +1,68 @@
+.login {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.login-dialog {
+max-width: 400px;
+width: 100%;
+}
+
+.login-content {
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+background-color: rgb(34, 34, 34);
+}
+
+.login-body {
+padding: 24px;
+}
+
+/* Форма авторизации */
+.login-call__form {
+display: flex;
+flex-direction: column;
+}
+
+.login .form-item {
+margin-bottom: 16px;
+}
+
+.login .form-item__input {
+width: 100%;
+padding: 12px;
+border: 1px solid var(--color-black);
+border-radius: 4px;
+font-size: 14px;
+}
+
+.login .form__btn-submit {
+width: 100%;
+padding: 12px;
+border: none;
+border-radius: 4px;
+background-color: var(--color-brown);
+color: white !important;
+font-size: 16px;
+
+cursor: pointer;
+}
+
+.login .form__btn-submit:hover {
+background-color: var(--color-brown-darken);
+}
+
+.login  .link-brown {
+color: var(--color-brown);
+}
+
+/* Дополнительные стили для ошибки валидации */
+.login .form-item__input:invalid {
+border-color: #f00;
+}
+
+.login .form-item__input:invalid:focus {
+box-shadow: 0 0 5px #f00;
+}

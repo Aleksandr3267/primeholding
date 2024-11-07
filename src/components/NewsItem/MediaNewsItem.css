@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+    .news .news-title{
+        margin-bottom: 100px;
+    }
+    .news .news-title .news-title-description .phrase-block-flex{
+        flex-direction: column;
+    }
+    .news .news-title .news-title-description .phrase-block-flex .text-for-description:first-of-type{
+        margin-top: 40px;
+    }
+    .news .news-title .news-title-description .phrase-block-flex .phrase-block-flex__right{
+        display: flex;
+        flex-direction: column;
+    }
+    .news .news-title .news-title-description .phrase-block-flex .phrase-block-flex__right .text-for-description:first-of-type{
+        order: 1;
+    }
+    .news .news-title .news-title-description .phrase-block-flex .phrase-block-flex__right img{
+        order: 0;
+        max-width: 500px;
+        margin: 100px -16px 0 -16px;
+    }
+    .news .news-title .news-title-description .phrase-block-flex .phrase-block-flex__left .quote-text{
+        margin-top: 60px;
+    }
+    .news .news-title .news-title-description .phrase-block-flex .text-for-description{
+        margin-top: 40px;
+    }
+    .news .news-title .news-title-description .phrase-block-flex .phrase-block-flex__right .text-for-description:first-of-type{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 991px) {
+    .news .news-title .news-title-description .quote-text{
+        margin-top: 60px;
+    }
+    .news .news-title .news-title-description .phrase-block-flex{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 560px) {
+    .news .news-title .container{
+        padding: 0;
+    }
+    .news .news-title .news-title-content .title{
+        margin-left: 40px;
+        max-width: 305px;
+        margin-bottom: -10px;
+    }
+    .news .news-title .news-title-content .title span{
+        color: var(--color-brown);
+    }
+    .news .news-title .container .news-title-content .image img, .socials .container-md .socials__image img{
+        height: 436px;
+        width: auto;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,33 @@
+@media (max-width: 1580px){
+    .location #map .gmnoprint[data-control-height="81"]{
+        top: auto !important;
+        right: -34px;
+        bottom: 21px;
+    }
+}
+@media (max-width: 991px){
+    .location .title{
+        top: 80px;
+        left: 16px;
+    }
+   
+    .location .link-map__button,  .map__img .link-map__button, .office-map .link-map__button{
+        /* left: 50%;
+        transform: translate(-50%, -50%); */
+        left: 0px;
+        /* width: 100%; */
+        padding: 0 16px;
+        top: 10px;
+    }
+    .location .link-map__button{
+        top: 85px;
+    }
+    .location .link-map__button a, .map__img .link-map__button a, .office-map .link-map__button a{
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+
+
+
