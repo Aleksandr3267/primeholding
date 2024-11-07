@@ -9,7 +9,7 @@ import AuthProvider from "./auth/AuthContext.jsx";
 ReactDOM.createRoot(document.getElementById('root')).render(
   // React.StrictMode
   <>
-    <Router>
+    <Router basename="/primeholding">
       <Provider store={store}>
         <AuthProvider>
             <App />
